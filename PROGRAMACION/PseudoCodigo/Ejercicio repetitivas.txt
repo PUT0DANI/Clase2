@@ -1,0 +1,57 @@
+Ejercicio 6:
+
+Proceso NumeroPar
+	Definir num1, num2, var como Enteros;
+	Escribir "Dame el primer numero";
+	Leer num1;
+	Escribir "Dame el segundo  numero";
+	Leer num2;
+	Para var<-num1 Hasta num2 Hacer
+		Si var % 2 = 0 Entonces
+			Escribir var;
+		FinSi
+	FinPara
+	
+	
+
+FinProceso
+
+
+Ejercicio 7:
+
+Proceso Ejercicio
+
+	Definir num, var, como Entero;
+	Escribir "Dime un numero";
+	Leer num;
+	Para var<-0 Hasta 10 Hacer
+		Escribir num * var;
+	FinPara
+
+
+FinProceso
+
+Ejercicio 8:
+
+Proceso Ejercicio
+	Definir inf, sup, num, suma, var, como Enteros;
+	Escribir "Dame el limite superior";
+	Leer sup;
+	Escribir "Dame el limite inferior";
+	Leer inf;
+	Mientras inf < sup Hacer
+		Escribir "El numero inferior no puede ser mayor"
+		Leer inf;
+	FinMientras
+	Repetir
+		Escribir "Dame números hasta que lo adivines"
+		Leer num;
+	Hasta que num = 0
+	Para var<-inf Hasta sup Hacer
+		suma++
+	FinPara
+	
+	
+	
+
+FinProceso

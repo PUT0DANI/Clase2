@@ -1,0 +1,29 @@
+Ejercicio 5:
+
+Proceso Pepe
+	Definir usuario, contraseña, como Cadenas;
+	Escribir "Dame un usuario";
+	Leer usuario;
+	Escribir "Dame la contraseña";
+	Leer contraseña;
+	Si usuario == "pepe" Y contraseña == "asdasd" Entonces
+		Escribir "Has entrado en sistema";
+	SiNog
+		Escribir "Error";
+	FinSi
+FinProceso
+
+Ejercicio 6:
+
+Proceso Mayuscula
+	Definir cad, como cadena;
+	Escribir "Escribe una cadena";
+	Leer cad;
+	Si cad = mayuscula(cad) Entonces
+		Escribir "Es mayuscula";
+	Sino
+		Escribir "Es minuscula";
+	FinSi
+	
+FinProceso
+	

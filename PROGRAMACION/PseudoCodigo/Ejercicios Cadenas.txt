@@ -1,0 +1,20 @@
+Ejercicio 8;
+
+Proceso Mayus
+	Definir cad1, cad2, como cadena;
+	cad2<-"";
+	Definir var como entero;
+	Escribir "Dame una cadena de caractares";
+	Para var<-0 Hasta longitud(cad1) con paso 1 hacer
+		Si subcadena(cad1,var,var) = Mayusuculas(Subcadena(cad1,pos,pos)) Entonces
+			concatenar(cad2, Minusculas(Subcadena(cad1,pos,pos))
+		Sino Si subcadena(cad1,var,var) = ) Entonces
+			concatenar(cad2, Mayusuculas(Subcadena(cad1,pos,pos))
+		Sino
+			concatenar(cad2,Subcadena(cad1,var,var))
+		FinSi
+			
+		
+	FinPara
+	Escribir cad2
+FinProceso
