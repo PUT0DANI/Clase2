@@ -1,0 +1,106 @@
+Ejercicio 5:
+
+Proceso Grados
+	Definir F,C como Real;
+	Escribir "Dime la temperatura en Fahrenheit ";
+	Leer F;
+	C <= (F -32)*5/9;
+	Escribir "La temperatura en Celsius es: ", C;
+FinProceso
+
+Ejercicio 6:
+
+Proceso Media
+	Definir num1, num2, num3, media como Real;
+	Escribir "Dame el num1";
+	Leer num1;
+	Escribir "Dame el num2";
+	Leer num2;
+	Escribir "Dame el num3";
+	Leer num3;
+	media <= (num1 + num2 + num3) / 3;
+	Escribir "La media de los 3 números es: ", media;
+FinProceso
+
+Ejercicio 7:
+
+Proceso Horas
+	Definir minutos, horas, minutosResto como Entero;
+	Escribir "Dime la cantidad de minutos";
+	Leer minutos;
+	horas <= minutos / 60;
+	minutosResto <= minutos % 60;
+	Escribir "Son ", horas , " horas y ", minutos , " minutos.";
+FinProceso
+	
+Ejercicio 8:
+
+Proceso Sueldo
+	Definir sueldoBase, venta1, venta2, venta3, comisiones, sueldoTotal como Real;
+	sueldoBase <= 1200,34;
+	venta1 <= 120;
+	venta2 <= 80;
+	venta3 <= 230;
+	comisiones <= (venta1 + venta2 + venta3) * 0,10;
+	sueldoTotal <= sueldoBase + comisiones;
+	Escribir "El total es comisiones es: ", comisiones;
+	Escribir "El total del sueldo es: ", sueldoTotal;
+FinProceso
+
+
+Ejercicio 9:
+
+Proceso Descuento
+	definir descuento, compra, totalCompra como Real;
+	Escribir "Dime el valor de la compra"
+	Leer compra;
+	descuento <= compra * 0,15;
+	totalCompra <= compra - descuento;
+	Escribir "El total de tu compra sale por: ", totalCompra;
+FinProceso
+
+Ejercicio 10:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
