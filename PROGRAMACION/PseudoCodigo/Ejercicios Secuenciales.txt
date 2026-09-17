@@ -61,10 +61,42 @@ FinProceso
 
 Ejercicio 10:
 
+Proceso Notas
+	definir promedioParciales, final, trabajo, total como Reales;
+	
+	promedioParciales <= 7,2;
+	final <= 8,3;
+	trabajo <= 10;
+	total <= (promedioParciales * 0,55) + (final * 0,3) + (trabajo * 0,15);
+	Escribir "Tu nota final es: ", total;
+finProceso
 
+Ejercicio 11:
 
+Proceso Distancia
+	definir num1, num2, como Enteros;
+	Escribir "Dame el primer numero";
+	Leer num1;
+	Escribir "Dame el segundo numero";
+	Leer num2;
+	Escribir "La distancia entre los dos es: ", abs(num2 - num1);
+finProceso
 
+Ejercicio 12: No lo entiendo
+Proceso calcular
+	Definir x1,x2,y1,y2 como Entero;
+	Definir distancia como Real;
+	Escribir "Dime las coordenadas del punto 1:";
+	Leer x1;
+	Leer y1;
+	Escribir "Dime las coordenadas del punto 2:";
+	Leer x2;
+	Leer y2;
+	distancia <- raiz((x2-x1)^2 + (y2-y1)^2);
+	Escribir "Distancia:", distancia;
+FinProceso
 
+Ejercicio 13:
 
 
 

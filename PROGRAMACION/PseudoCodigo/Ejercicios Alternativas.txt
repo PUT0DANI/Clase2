@@ -27,3 +27,101 @@ Proceso Mayuscula
 	
 FinProceso
 	
+Ejercicio 7: No entiendo
+
+
+Ejercicio 8:
+
+Proceso Edad
+	Definir nota, edad como Enteros;
+	Definir sexo como Cadena;
+	Escribir "Dime tu edad";
+	Leer edad;
+	Escribir "Dime tu nota";
+	Leer nota;
+	Escribir "Dime tu sexo F/M";
+	Leer sexo;
+	Si nota >= 5 Y edad >= 18 Y sexo == "F" Entonces
+		Escribir "Aceptada";
+	SiNo Si nota >= 5 Y edad >= 18 Y sexo == "M" Entonces
+		Escribir "Posible";
+	Sino 
+		Escribir "No aceptada";
+	finSi
+
+FinProceso
+
+
+Ejercicio 9:
+
+
+Proceso Ordenar
+	definir num1, num2, num3 como Enteros;
+	Escribir "Dame el primer numero";
+	Leer num1;
+	Escribir "Dame el segundo numero";
+	Leer num2;
+	Escribir "Dame el tercer numero";
+	Leer num3;	
+	Si num1>num2 Y num1>num3 Entonces
+		Si num2>num3 Entonces
+			Escribir num1,num2,num2;
+		Sino
+			Escribir num1,num3,num2;
+		FinSi
+	Si num2>num1 Y num2>num3 Entonces
+		Si num1>num3 Entonces
+			Escribir num2,num1,num3;
+		Sino
+			Escribir num2,num3,num1;
+		FinSi
+	Si num3>num1 Y num3>num2 Entonces
+		Si num1>num2 Entonces
+			Escribir num3,num2,num1;
+		Sino
+			Escribir num3,num1,num2;
+		FinSi
+	finSi
+		
+
+
+FinProceso
+
+Ejercicio 10: No entiendo
+
+Ejercicio 11: No entiendo
+
+Ejercicio 12: 
+
+
+Proceso Bisiesto
+	definir año como Entero;
+	Si año % 4 = 0 Y año % 100 <> 0  Entonces
+		Escribir "Año bisiesto"	
+	FinSi
+	Si año % 4 = 0 Y año % 100 = 0 Y año % 400 = 0 Entonces
+		Escribir "Año bisiesto"
+	Sino
+		Escribir "No es bisiesto"
+	FinSi
+
+FinProceso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
