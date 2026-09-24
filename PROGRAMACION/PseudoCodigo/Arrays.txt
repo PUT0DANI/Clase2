@@ -1,0 +1,124 @@
+Ejercicio 1:
+
+Proceso Numeros
+	Definir i como Entero;
+	Definir vector Como Entero;
+	Dimension vector[10];
+	Para i<-0 hasta 9 Hacer
+		vector[i] <- aleatorio(1,10);
+	FinPara
+	Para i<-0 hasta 9 Hacer
+		Escribir vector[i], vector[i*i], vector[i*i*i];
+	FinPara
+
+FinProceso
+
+Ejercicio 2:
+
+Proceso Cadenas
+	Definir i, contador como Entero;
+	Definir vector, vector2 Como Cadena;
+	Dimension vector[5];
+	Dimension vector2[5];
+	Para i<-0 hasta 4  Hacer
+		Escribir Sin saltar "Dime la cadena numero", i+1 ,":";
+		Leer vector[i];
+	FinPara
+	contador <- 0;
+	Para i<-4 hasta 0 Con paso -1 Hacer
+		vector2[contador] <-vector[i];
+		Escribir vector2[contador];
+		contador++;
+	FinPara
+FinProceso
+
+Ejercicio 3:
+
+Proceso Notas
+	Definir i, nota, media, alta, baja como Entero,
+	Definir vector como Entero;
+	Dimension vector[5];
+	Para i<-0 hasta 4 Hacer
+		Escribir "Dime la nota(Del 0 al 10) ", i+1 , ":";
+		Leer vector[i];
+	FinPara
+	Para i<-0 hasta 4 Hacer
+		Escribir vector[i], ",";
+	FinPara
+	
+	// Calcular Media
+	media<-0;
+	Para i<-0 hasta 4 Hacer
+		media <- media + vector[i];
+	FinPara
+	Escribir media/5;
+	
+	//La nota mas alta
+	alta<-vector[0];
+	Para i<-0 hasta 4 Hacer
+		Si vector[i] > alta Entonces
+			alta<- vector[i]
+		FinSi
+	FinPara
+	Escribir "La nota mas alta es: ", alta;
+	
+	//La nota mas baja
+	baja<-vector[0];
+	Para i<-0 hasta 4 Hacer
+		Si vector[i] < baja Entonces
+			baja<- vector[i]
+		FinSi
+	FinPara
+	Escribir "La nota mas baja es: ", baja;
+	
+FinProceso
+
+Ejercicio 4:
+
+Proceso Ejercicio4
+	Definir i, contador, como Entero;
+	Definir vector como Entero;
+	Dimension vector[10];
+	contador <- 0;
+	
+	Repetir
+		Escribir "Dime el numeros hasta llegar a 10 si es negativo se para. Posicion: ", contador+1;
+		Leer vector[contador];
+		Si vector[contador] >= 0 Entonces
+			contador++;
+		FinSi
+	Hasta que vector[i] < 0 O contador = 10
+	
+	//Solo escribir los numeros introducidos
+
+	Para i<- 0 Hasta contador-1 Hacer
+		Escribir vector[i];
+	FinPara
+	
+
+FinProceso
+
+Ejercicio 5:
+
+Proceso Ordenar
+
+	Definir i, j, cambiar como Entero;
+	Definir vector como Entero;
+	Dimension vector[10];
+	cambiar <- 0
+	Para i<-0 Hasta 9 Hacer
+		vector[i] <- aleatorio(0,100)
+	FinPara
+	Para i<-0 Hasta 9 Hacer
+		Para j<-0 Hasta 9 Entonces
+			Si vector[j] < vector[i] Entonces
+				cambiar <- vector[i]
+				vector[i]<-vector[j];
+				vector[j] <- cambiar;
+			FinSi
+		FinPara
+	FinPara
+
+FinProceso
+
+Ejercicio 6:
