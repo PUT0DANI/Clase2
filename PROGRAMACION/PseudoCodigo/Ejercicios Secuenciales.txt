@@ -98,7 +98,56 @@ FinProceso
 
 Ejercicio 13:
 
+Proceso Ejercicio13
 
+	Definir num como Entero;
+	Escribir "Dime el número:";
+	Leer num;
+	Escribir "Raíz cuadrada:", raiz(num);
+	Escribir "Raíz cúbica:", num ^ (1/3);
+
+FinProceso
+
+Ejercicio 14:
+
+Proceso Ejercicio14
+	Definir num,decenas,unidades como Entero;
+	Escribir "Dime un número de dos cifras";
+	Leer num;
+	decenas <- trunc(num/10);
+	unidades <- num % 10;
+	Escribir "Primera cifra (decenas): ",decenas;
+	Escribir "Segunda cifra (unidades): ",unidades;
+FinProceso
+
+Ejercicio 15:
+Proceso Ejercicio15
+	Definir num1,num2,num3 como Enteros;
+	Escribir "Dame el primer numero";
+	Leer num1;
+	Escribir "Dame el segundo numero";
+	Leer num2;
+	num2 = num1;
+	num1 = num2;
+	num2 =  num3;
+	Escribir " Ahora el primer numero vale: ", num1 ," y el segundo numero vale: ", num2;
+FinProceso
+
+Ejercicio 16:
+
+Proceso Ejercicio16
+	Definir velocidad1,velocidad2,distancia,tiempo como Real;
+	Escribir Sin Saltar "Dime la velocidad del coche 1 (km/h):";
+	Leer velocidad1;
+	Escribir Sin Saltar "Dime la velocidad del coche 2 (más pequeña)(km/h):";
+	Leer velocidad2;
+	Escribir Sin Saltar "Dime la distancia entre los coches (km):";
+	Leer distancia;
+	tiempo <- distancia / (velocidad1 - velocidad2);
+	tiempo<- tiempo * 60;
+	Escribir "Lo alcanza en ",tiempo, " minutos.";
+		
+FinProceso
 
 
 
