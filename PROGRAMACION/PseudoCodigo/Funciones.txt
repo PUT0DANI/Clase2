@@ -1,0 +1,15 @@
+Ejercicio 2:
+Funcion Centrar[texto]
+	Definir i como entero
+	Para i con paso 1 hasta (40 - longitud(texto))/2
+		Escribir sin saltar " "
+	FinPara
+	Escribir sin saltar texto
+FinFuncion
+
+Proceso Principal
+	definir txt como cadena
+	Escribir "Dime el texto que quieras centrar"
+	Leer txt
+	Centrar[txt]
+FinProces
