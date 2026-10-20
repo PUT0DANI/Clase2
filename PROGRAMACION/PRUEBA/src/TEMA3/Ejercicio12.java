@@ -1,0 +1,10 @@
+package TEMA3;
+
+public class Ejercicio12 {
+    public static void main(String[] args) {
+        for (int i = 65; i <= 90; i++){
+            char caracter = (char) i;
+            System.out.print(caracter);
+        }
+    }
+}

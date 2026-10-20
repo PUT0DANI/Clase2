@@ -13,3 +13,87 @@ Proceso Principal
 	Leer txt
 	Centrar[txt]
 FinProces
+
+
+
+
+Ejercicio 5:
+
+Funcion CalcularMaxMin(array, tamArray, max Por Referencia, min Por Referencia)
+	Definir i como entero;
+	max <- array[0];
+	min <- array[0];
+	Para i<-0 hasta tamArray-1 hacer
+		Si array[i] > max Entonces
+			max <- array[i];
+		finSi
+		
+		Si array[i] < min Entonces
+			min <- array[i];
+		finSi	
+	finPara
+	
+
+FinFuncion
+
+Proceso calcular
+	Definir max, min, i, tamArray como entero;
+	
+	Definir array como Entero;
+	Dimension array[5];
+	tamArray <- 5;
+	Para i<-0 hasta tamArray-1 Hacer
+		Escribir "Dime el numero ", i+1;
+		Leer array[i];
+	FinPara
+	CalcularMaxMin(array, tamArray, max, min);
+	Escribir "El valor max es: ", max;
+	Escribir "El valor min es: ", min;
+	
+
+FinProceso
+
+Ejercicio 6:
+Funcion espaciado <- ConvertirEspaciado(cad)
+	Definir pos como entero;
+	Definir espaciado Como Cadena;
+	
+	espaciado<-"";
+	
+	para pos<-0 Hasta longitud(cad)-1 hacer
+		espaciado<- concatenar(espaciado, subcadena(cad,pos,pos));
+		espaciado<- concatenar(espaciado, " ");
+	finPara						
+
+FinFuncion
+
+Proceso
+
+
+FinProceos
+
+
+
+
+
+Funcion MCD <- CalMCD(num1, num2)
+	Definir max, min, resto como Entero
+	Si num1 > num2 Entonces
+		max <- num1;
+		min <- num2:
+	SiNo
+		max <- num2;
+		min <- num1:
+	FinSi
+	
+	Si max % min = 0 Entonces
+		MCD <- min;
+	SiNo
+		resto <- max%min;
+		MCD <
+		
+
+
+
+
+
