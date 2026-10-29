@@ -1,0 +1,11 @@
+# Archivos compilados (se generan al ejecutar en IntelliJ)
+out/
+*.class
+
+# Archivos personales de IntelliJ
+.idea/workspace.xml
+.idea/shelf/
+
+# Sistema
+.DS_Store
+Thumbs.db
