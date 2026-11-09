@@ -11,16 +11,14 @@ public class Ejercicio11 {
 
     }
     static int factorial(int num){
-        int resultado = 1;
-        if (num < 0){
-            System.out.println("Tiene que ser un numero mayor a 0;");
-            return 0;
+
+        if (num <= 1){
+
+            return 1;
         } else {
 
-            System.out.println(num);
+            return num *  factorial(num-1);
 
-            return  factorial(num-1);
-            
         }
     }
 }
