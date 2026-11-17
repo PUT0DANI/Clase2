@@ -8,7 +8,7 @@ public class Ejercicio5 {
         int[] array = new int[10];
         Random r = new Random();
         Scanner sc = new Scanner(System.in);
-        // Usando for each
+
         for (int i = 0; i < array.length; i++) {
             array[i] = r.nextInt(100);
             System.out.print(array[i] + " ");

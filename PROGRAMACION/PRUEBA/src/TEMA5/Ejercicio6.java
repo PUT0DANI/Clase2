@@ -13,6 +13,7 @@ public class Ejercicio6 {
         }
 
         int con = 0;
+        // Usando for each
         for(int i : numeros){
             if (i < 0) {
                 con++;
