@@ -1,6 +1,6 @@
-package TEMA6.LIBRERIA;
+package TEMA6;
 
-public class Libro {
+public class libro {
     String autor;
     String ISBN;
     int paginas;
@@ -65,15 +65,15 @@ public class Libro {
 
     // CONSTRUCTORES
 
-    public Libro() {
+    public libro() {
     }
 
-    public Libro(String autor, String titulo) {
+    public libro(String autor, String titulo) {
         this.autor = autor;
         this.titulo = titulo;
     }
 
-    public Libro(String autor, String ISBN, String titulo, String tematica, int paginas) {
+    public libro(String autor, String ISBN, String titulo, String tematica, int paginas) {
         this.autor = autor;
         this.ISBN = ISBN;
         this.titulo = titulo;
@@ -94,6 +94,6 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "El titulo del libro es " + titulo + " el autor del libro es " + autor + " y la tematica " + tematica;
+        return "El titulo del TEMA6.libro es " + titulo + " el autor del TEMA6.libro es " + autor + " y la tematica " + tematica;
     }
 }

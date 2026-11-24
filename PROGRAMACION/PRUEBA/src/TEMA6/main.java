@@ -1,14 +1,15 @@
-package TEMA6.LIBRERIA;
+package TEMA6;
+
 
 import java.util.Scanner;
 
-public class MAIN {
+public class main  {
     static void main() {
         Scanner sc = new Scanner(System.in);
-        Libro l1 = new Libro();
+        libro l1 = new libro();
         System.out.println(l1);
 
-        Libro l2 = new Libro("Lovcraft", "9032-2312-DWDS", "Las montañas del silencio", "Terror", 350);
+        libro l2 = new libro("Lovcraft", "9032-2312-DWDS", "Las montañas del silencio", "Terror", 350);
         System.out.println(l2);
         l2.setTitulo("Las montañas ocultas");
         System.out.println(l2);
@@ -18,6 +19,6 @@ public class MAIN {
         l2.setTematica(sc.nextLine());
         System.out.println(l2);
 
-        Estanteria e1 = new Estanteria();
+        estanteria e1 = new estanteria();
     }
 }
